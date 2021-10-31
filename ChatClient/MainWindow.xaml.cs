@@ -74,7 +74,7 @@ namespace ChatClient
         {
             DisconnectUser();
         }
-
+        //
         private void tbMsg_KeyDown(object sender, KeyEventArgs e)
         {
             if((client!=null)&&(e.Key == Key.Enter))
